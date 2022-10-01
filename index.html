@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Oque eu faço?</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">Sobre mim</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Olá, eu sou o <strong>Erick</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">back-end developer</p>
+        <img src="img/foto1.jpeg" alt="a picture of Jane Doe" class="intro__image" />
+    </section>
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Oque eu faço?</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Desenvolvimento</h3>
+                <p>
+                    Faço o desenvolvimento para o backend em C#, mas não 
+                    me limito apenas a BackEnd, faço trabalhos com front-end 
+                    também. A minha maior experiência com front-end vem de 
+                    projetos em ASP.NET MVC. Tenho conhecimento também
+                    em APIs utilizando o Swagger para documentação. 
+                    Utilizo ferramentas como DataDog e Rancher para o 
+                    monitoramento das aplicações e o Jenkins para as builds 
+                    de pipelines e deploys.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Tecnologias</h3>
+                <p>
+                   C# | .net (2.2 até 6) | SQL Server | Swagger DataDog | Azure | Rancher | Jenkins | Mensageria com RabbitMq
+                   Possuo conhecimentos em: HTML, CSS, JS, GENEXUS, C++, MongoDb, Java.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Certificações</h3>
+                <p>
+                  Certificado com o nível de B2 em inglês pela universidade de Cambridge.
+                  Formado pela BigBen - Idiomas como fluente em inglês.
+                  Ensino médio pelo IFC - Brusque (2018-2020).
+                  Técnico em informática pelo IFC - Brusque (2018-2020).
+                  Formando em ciências da computação pela UNIVALI (2021-2026).
+                </p>
+            </div>
+        </div>
+
+        <a href="#about" class="btn">Sobre mim</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title-about">Quem sou eu?</h2>
+        <p class="section__subtitle section__subtitle--about">
+            A história por trás do garoto que programa
+        </p>
+
+        <div class="about-me__body">
+            <p>
+                Meu nome é Erick Artur Garcia, tenho 19 anos, sou natural de Brusque - SC
+                Sempre gostei muito de tecnologia, tanto que o meu primeiro contato com um
+                computador veio aos 4 anos de idade, desde então foi uma paixão que não
+                acabou até hoje.
+                Durante vários anos a parte que mais me interessava eram os jogos, que
+                foram uma parte primordial da minha infancia. Após entrar no ensino médio,
+                comecei a adquirir o gosto pela programação.
+            </p>
+            <p>
+                Nos dias atuais, durante o dia, eu trabalho na empresa HAVAN como desenvolvedor 
+                back-end. Meus planos para o futuro são de me tornar um desenvolvedor full-stack,
+                e já estou estudando para isso (React, aqui vamos nós).
+                Na parte da noite eu vou para a UNIVALI em Itajaí, onde estou cursando Ciências da 
+                computação.
+            </p>
+        </div>
+
+        <img src="img/foto2.jpeg" alt="Jane Doe" class="about-me__img" />
+    </section>
+
+    <footer class="footer">
+        <a href="mailto: contact@jane.dev" class="footer__link">
+            ErickArturGarcia@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/erick-garcia-1991a7210/" class="social-list__link">
+                   <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://twitter.com/Erick_AGarcia" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/FrotosEG" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
